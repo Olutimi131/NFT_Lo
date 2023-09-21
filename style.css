@@ -1,0 +1,117 @@
+.image {
+    background: url(images/7748166.jpg);
+    background-size: 300px 400px;
+    background-color: #fff;
+    width: 296px;
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 15px 200px 200px;
+}
+
+#left {
+    border-radius: 15px 0px 0px 15px;
+}
+
+#right {
+    border-radius: 15px 15px 15px 0px;
+}
+
+#left, #right {
+    display: inline-block;
+    width: 146px;
+    height: 500px;
+    background-color: hsl(27, 83%, 47%);
+}
+
+.cardclick {
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.firstbox {
+    background: #fff;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.s1class {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 63%;
+    margin-left: -50%;
+}
+
+.s1class span, .s2class span {
+    display:block;
+}
+
+.s2class {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 63%;
+    margin-right: -50%;
+}
+
+.mainheader {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card2 {
+    background-color: #db6e14;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    position: absolute;
+    left: 370px;
+    display: inline-block;
+    padding-right: 25px;
+}
+.username {
+    font-weight: bold;
+    width: 230px;
+    margin: 0 35px 20px;
+    height: 45px;
+    padding:6px 15px;
+    border-radius: 5px;
+    border: none;
+    background: #f6f7f9;
+    font-size: 14px;
+}
+
+.btn {
+    font-weight: bold;
+    width: 257px;
+    margin: 0 35px 20px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #db6e14;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.signup1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.forgetpassword {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -70px;
+}
